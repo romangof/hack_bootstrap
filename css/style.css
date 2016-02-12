@@ -1,0 +1,102 @@
+* {
+	text-decoration: none;
+}
+
+.box {
+	padding: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	/*padding-left: 0;
+	padding-right: 0;*/
+}
+
+.box_left {
+	float: left;
+}
+
+.box_right {
+	background-color: gray;
+	float: right;
+	right: 0;
+}
+
+.carousel {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+	/*top: 0;
+	bottom: 0;*/
+}
+.item {
+	height: 100%;
+}
+
+.item_blue {
+	background-image: url("../img/background_2.jpg");
+}
+.item_white {
+	background-image: url("../img/background.jpg");
+}
+
+
+
+
+
+
+
+/* Carrusel Vertical */
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 100%;
+}
+
+.carousel.vertical .prev {
+  top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -100%;
+}
+
+.carousel.vertical .active.right {
+  top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}​
+
+/* Controles */
+
+#top {
+	transform: rotate(90deg);
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+}
