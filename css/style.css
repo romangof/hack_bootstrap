@@ -81,17 +81,19 @@
   bottom: 0;
   left: 2%;
   right: 5%;
-  border: 2px solid black;
   border-radius: 2%;
+  text-align: left;
+  padding: 25px;
 }
 
 .text_box.blue {
-  opacity: 0.4;
-  background-color: blue;
+  background-color: rgba(0,0,300,0.4);
+  border: 1px solid black;
   color: white;
 }
 .text_box.white {
   background-color: white;
+  border: 1px solid gray;
   color: black;
 }
 
@@ -112,17 +114,29 @@
 
 .hacker.white {
   color: white;
-  border: 3px solid black;
+  border: 5px solid black;
   background-color: rgba(0,0,300,0.6);
-  /*opacity: 0.6;*/
-}
-
-.hacker.white p {
   font-weight: bold;
-  color: white;
 }
 
+.hacker.blue {
+  color: inherit;
+  border: 5px solid gray;
+  background-color: rgba(300,300,300,0.6);
+  font-weight: bold;
+}
 
+.icons {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+}
+.icons.white a{
+  -webkit-filter:invert(20%);
+}
 
 
 /* Carrusel Vertical */
@@ -164,7 +178,7 @@
 }
 
 .carousel.vertical .item {
-    left: 0;
+  left: 0;
 }​
 
 /* Controles */
