@@ -70,6 +70,9 @@
   margin-left: 5px;
   margin-right: -5px;
   text-align: center;
+  /*opacity: 0.7;*/
+  /*padding: 0;*/
+  /*margin-right: 5px;*/
 }
 
 .text_box {
@@ -103,26 +106,20 @@
   left: 0;
   right: 20px;
   height: 50px;
-  /*font-size: xx-large;*/
+  font-size: xx-large;
   font-weight: bold;
 }
 
 .hacker.white {
   color: white;
   border: 3px solid black;
-  background-color: blue;
-  opacity: 0.6;
+  background-color: rgba(0,0,300,0.6);
+  /*opacity: 0.6;*/
 }
 
-.hacker_text {
-  position: absolute;
-  bottom: 10px;
-  /*left: 20%;*/
-  text-align: inherit;
-  font-size: xx-large;
+.hacker.white p {
   font-weight: bold;
   color: white;
-  opacity: 100;
 }
 
 
